@@ -85,7 +85,7 @@
 
 nav ul li{
     list-style: none;
-    margin: 50px 20px;
+    margin: 40px 30px;
     scroll-behavior: smooth;
 }
 
@@ -146,6 +146,22 @@ nav ul li a{
 
 .title-text h1{
     font-size: 50px;
+}
+
+.social{
+    position: fixed;
+    top: 190px;
+    /* display: flex; */
+}
+
+.social .fa{
+    font-size: 20px;
+    color: #009688;
+    display: block;
+    margin: 30px 10px;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 6;
 }
 
 .feature-box{
